@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="main">
+    <file>1.png</file>
+    <file>dark_star.png</file>
+    <file>star.png</file>
+    <file>small_button.png</file>
+    <file>small_button_pressed.png</file>
+    <file>button.png</file>
+    <file>button_pressed.png</file>
+  </qresource>
+</RCC>

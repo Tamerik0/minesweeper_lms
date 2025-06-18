@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QWidget" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="normal_mode_button">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>225</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+font: 8pt &quot;Comic Sans MS&quot;;
+border-image: url(:/main/button.png);
+}
+QPushButton:pressed {
+font: 8pt &quot;Comic Sans MS&quot;;
+border-image: url(:/main/button_pressed.png);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Обычный режим</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="campaign_button">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>275</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+font: 8pt &quot;Comic Sans MS&quot;;
+border-image: url(:/main/button.png);
+}
+QPushButton:pressed {
+font: 8pt &quot;Comic Sans MS&quot;;
+border-image: url(:/main/button_pressed.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>Кампания</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_button">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>325</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+font: 8pt &quot;Comic Sans MS&quot;;
+border-image: url(:/main/button.png);
+}
+QPushButton:pressed {
+font: 8pt &quot;Comic Sans MS&quot;;
+border-image: url(:/main/button_pressed.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../res/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
